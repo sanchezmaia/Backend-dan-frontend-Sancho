@@ -1,0 +1,28 @@
+GET http://localhost:5000/users
+
+###
+GET http://localhost:5000/users/668907989253dc8d19634439
+
+###
+POST  http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name" : "santina",
+    "email" : "santina@gmail.com",
+    "mobile" : "77567878",
+    "addres" : "suai",
+    "gender" : "Female"
+}
+
+###
+PATCH http://localhost:5000/users/668907989253dc8d19634439
+Content-Type: application/json
+
+{
+    "name" : "jhon",
+    "email" : "jhon@gmail.com",
+    "mobile" : "77567878",
+    "addres" : "suai",
+    "gender" : "Female"
+}
